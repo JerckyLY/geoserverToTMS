@@ -12,3 +12,4 @@
 ![image](https://github.com/JerckyLY/geoserverToTMS/blob/master/images/2.png)
 
 #5、nginx代理，用mapbox加载显示效果
+![image](https://github.com/JerckyLY/geoserverToTMS/blob/master/images/4.png)
