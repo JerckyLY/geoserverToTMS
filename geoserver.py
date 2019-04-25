@@ -1,4 +1,4 @@
-import shutil,os,sys
+import shutil,os
 from tqdm import tqdm
 #处理下划线命名
 def handlePath(fileName):
@@ -23,7 +23,6 @@ def getFile(sourceDir,targetDir):
         # 各个等级下的目录，既直接包含pbf的目录
         souritemdir = sourceDir+"\\"+file+"\\"+os.listdir(sourceDir+"\\"+file)[0]
         #遍历目录下的所有文件
-        total = len(os.listdir(souritemdir))
         for childfile in tqdm(os.listdir(souritemdir)):
             #不是pdf文件格式的直接跳过
             if(childfile.split(".")[1] !="pbf"):
