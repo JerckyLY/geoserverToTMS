@@ -1,5 +1,4 @@
 import shutil,os,sys
-from progress.bar import Bar
 from tqdm import tqdm
 #处理下划线命名
 def handlePath(fileName):
